@@ -1,0 +1,36 @@
+Metadata-Version: 2.4
+Name: holosoma-inference
+Version: 0.1.0
+Summary: holosoma-inference: inference components for humanoid robot policies
+Author: Amazon FAR Team
+Keywords: humanoid robotics inference policy onnx
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic
+Requires-Dist: loguru
+Requires-Dist: netifaces
+Requires-Dist: onnx
+Requires-Dist: onnxruntime
+Requires-Dist: scipy
+Requires-Dist: sshkeyboard
+Requires-Dist: termcolor
+Requires-Dist: pyyaml
+Requires-Dist: tyro>=0.10.0a4
+Requires-Dist: wandb
+Requires-Dist: zmq
+Requires-Dist: defusedxml
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: black>=22.0; extra == "dev"
+Requires-Dist: flake8>=4.0; extra == "dev"
+Provides-Extra: unitree
+Requires-Dist: unitree_sdk2 @ https://github.com/amazon-far/unitree_sdk2/releases/download/0.1.1/unitree_sdk2-0.1.1-cp310-cp310-linux_x86_64.whl ; extra == "unitree"
+Provides-Extra: booster
+Requires-Dist: booster_robotics_sdk @ https://github.com/amazon-far/booster_robotics_sdk/releases/download/0.1.0/booster_robotics_sdk-0.1.0-cp310-cp310-linux_x86_64.whl ; extra == "booster"
+Dynamic: author
+Dynamic: description-content-type
+Dynamic: keywords
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

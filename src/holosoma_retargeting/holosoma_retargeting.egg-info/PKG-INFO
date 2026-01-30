@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: holosoma-retargeting
+Version: 0.1.0
+Summary: Retargeting utilities for converting human motions to robot motions.
+Author: Amazon FAR Team
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy==2.3.5
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: trimesh
+Requires-Dist: smplx
+Requires-Dist: jinja2
+Requires-Dist: mujoco
+Requires-Dist: viser
+Requires-Dist: robot_descriptions
+Requires-Dist: yourdfpy
+Requires-Dist: cvxpy
+Requires-Dist: libigl
+Requires-Dist: tyro
+Provides-Extra: dev
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Dynamic: requires-python

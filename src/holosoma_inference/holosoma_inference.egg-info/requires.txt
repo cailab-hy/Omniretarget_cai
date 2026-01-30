@@ -1,0 +1,24 @@
+pydantic
+loguru
+netifaces
+onnx
+onnxruntime
+scipy
+sshkeyboard
+termcolor
+pyyaml
+tyro>=0.10.0a4
+wandb
+zmq
+defusedxml
+
+[booster]
+booster_robotics_sdk @ https://github.com/amazon-far/booster_robotics_sdk/releases/download/0.1.0/booster_robotics_sdk-0.1.0-cp310-cp310-linux_x86_64.whl
+
+[dev]
+pytest>=6.0
+black>=22.0
+flake8>=4.0
+
+[unitree]
+unitree_sdk2 @ https://github.com/amazon-far/unitree_sdk2/releases/download/0.1.1/unitree_sdk2-0.1.1-cp310-cp310-linux_x86_64.whl
